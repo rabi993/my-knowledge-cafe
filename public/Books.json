@@ -1,0 +1,60 @@
+
+
+[
+    {
+      "id": 1,
+      "AuthorName": "Rabiul Islam",
+      "title": "brown book",
+      "BlogCoverImage": "https://pngimg.com/uploads/book/book_PNG2111.png",
+      "AuthorImage": "https://clipart-library.com/data_images/100613.png",
+      "ReadTime": 15,
+      "PublishDate": "Mar 14 2023"
+      
+      
+    },
+    {
+      "id": 2,
+      "AuthorName": "Mamunur Roshid",
+      "title": "White book",
+      "BlogCoverImage": "https://m.media-amazon.com/images/I/915a-cSHtjL._SX606_.jpg",
+      "AuthorImage": "https://clipart-library.com/data_images/100617.gif",
+      "ReadTime": 10,
+      "PublishDate": "May 04 2020"
+      
+      
+    },
+    {
+      "id": 3,
+      "AuthorName": "Sharna Haque",
+      "title": "Prem Pritir Vimroti",
+      "BlogCoverImage": "https://daily.jstor.org/wp-content/uploads/2016/02/BookOfLove_1050x700.jpg",
+      "AuthorImage": "https://clipart-library.com/data_images/100644.jpg",
+      "ReadTime": 35,
+      "PublishDate": "Jan 05 2002"
+    
+      
+    },
+    {
+      "id": 4,
+      "AuthorName": "Abul KaLam Azad ",
+      "title": "Wings of Fire",
+      "BlogCoverImage": "https://www.careerindia.com/img/2018/10/1-1539586609.jpg",
+      "AuthorImage": "https://upload.wikimedia.org/wikipedia/commons/b/b0/A._P._J._Abdul_Kalam_in_2008.jpg",
+      "ReadTime": 15,
+      "PublishDate": "Mar 14 2023"
+      
+      
+    },
+    {
+      "id": 5,
+      "AuthorName": "Kaji Vua",
+      "title": "Vua book",
+      "BlogCoverImage": "https://salt.tikicdn.com/cache/750x750/ts/product/5e/fd/26/927e4071d578b5b6a029f6f9a79c0cc8.JPG.webp",
+      "AuthorImage": "https://www.mediabistro.com/wp-content/uploads/2014/09/best-selling-author.jpg",
+      "ReadTime": 22,
+      "PublishDate": "July 03 2013"
+      
+      
+    }
+
+  ]
