@@ -8,14 +8,13 @@ const Blogs = ({ handleAddToBookmark, handleMarkAsRead }) => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch('blogs.json')
+        fetch('books.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, [])
 
     return (
-        <div className="md:w-2/3">
-            
+        <div className="md:w-3/4 mt-1">
             {
                 blogs.map(blog => <Blog
                     key={blog.id}
