@@ -41,6 +41,7 @@ const [state, setState] = useState(initialValue);
             </p>
             
         </div>
+        <hr className='mb-5'/>
         
         </div>
     );
