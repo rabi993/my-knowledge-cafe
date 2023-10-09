@@ -3,6 +3,8 @@ import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
@@ -30,8 +32,16 @@ function App() {
         <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
 
+      <ToastContainer></ToastContainer>
+
     </>
   )
 }
 
 export default App
+
+
+
+
+
+

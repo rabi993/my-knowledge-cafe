@@ -1,8 +1,22 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
+import { ToastContainer, toast } from "react-toastify";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
+
+    
+
     const { id, title, BlogCoverImage, AuthorName, AuthorImage, PublishDate, ReadTime } = blog;
+
+    const handleBookmarked = () => {
+        toast("Bookmarked !");
+        
+      };
+    const handleRead = () => {
+        toast(" WoW ! Read Complete !");
+        
+      };
+
     return (
         <div className='mb-5 border-4 rounded-xl mt-1 pb-4 px-10 bg-gray-400 space-y-4'>
             <div className='w-96  m-5 mx-auto'>
@@ -19,9 +33,10 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
                 <div >
                     <span className='text-green-700'>{ReadTime} min read</span>
                     <button 
-                        onClick={() => handleAddToBookmark(blog)}
+                        onClick={() => {handleAddToBookmark(blog);handleBookmarked();}}
                         className='ml-4 text-3xl  pt-3  text-green-800'
                     ><FaBookmark></FaBookmark></button>
+                    
                 </div>
             </div>
             <hr />
@@ -29,9 +44,9 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
             <h2 className="text-4xl font-semibold text-green-700">{title}</h2>
             
             <button
-                onClick={() => handleMarkAsRead(id, ReadTime)}
-                className='text-green-800 font-bold text-xl '
-            >Mark As Read</button>
+                onClick={() => {handleMarkAsRead(id, ReadTime); handleRead();} }
+                className='text-green-800 font-bold text-xl bg-gray-300 rounded-2xl px-2'
+            > Mark As Read </button>
             </div>
         </div>
     );
@@ -44,3 +59,9 @@ Blog.propTypes = {
 }
 
 export default Blog;
+
+
+
+
+
+
