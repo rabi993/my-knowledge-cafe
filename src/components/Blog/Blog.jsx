@@ -10,11 +10,11 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
     const { id, title, BlogCoverImage, AuthorName, AuthorImage, PublishDate, ReadTime } = blog;
 
     const handleBookmarked = () => {
-        toast("Bookmarked !");
+        toast("You can bookmark a blog multiple times. No worries!");
         
       };
     const handleRead = () => {
-        toast(" WoW ! Read Complete !");
+        toast(" WoW ! Read Complete !  You can Read a blog multiple times. No worries!");
         
       };
 
