@@ -5,6 +5,7 @@ import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import BlogPage from './components/BlogPage/BlogPage'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
@@ -33,6 +34,8 @@ function App() {
       </div>
 
       <ToastContainer></ToastContainer>
+
+      <BlogPage></BlogPage>
 
     </>
   )

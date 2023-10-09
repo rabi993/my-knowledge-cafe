@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
+// eslint-disable-next-line no-unused-vars
 import { ToastContainer, toast } from "react-toastify";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
